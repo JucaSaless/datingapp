@@ -1,4 +1,4 @@
-# Application with ASP.NET Core API (.Net 5.0) and Angular 10
+# App with ASP.NET Core API (.Net 5.0) and Angular 10
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
