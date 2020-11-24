@@ -7,7 +7,8 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'Client Side';
+  title = 'App AspNet Core and Angular';
+
   url = 'https://localhost:5001/api/users';
   users: any;
 
@@ -21,7 +22,7 @@ export class AppComponent implements OnInit {
     this.http.get(this.url).subscribe(respon => {
       this.users = respon;
     }, error => {
-      console.log(error);
+      console.log('error:', error);
     });
   }
 }
